@@ -10,6 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Updated](#updated)
 - [Author](#author)
 
 ## Overview
@@ -37,6 +38,21 @@ Users should be able to:
 - HTML
 - CSS
 - Flexbox
+
+### Updated
+
+- Icons "alt" tags changed to empty and added aria-hidden="true"
+- Wrapped clickable elements in anchor tags
+- Added "Eric Meyer Reset" CSS reset
+- Added css properties to body element to center page content:
+
+```css
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+```
 
 ## Author
 
